@@ -1,0 +1,55 @@
+#main{
+    
+    background: #ffffff;
+    background: linear-gradient(to bottom right,#ffffff 0%, #b22222 50%);
+    background: -webkit-linear-gradient(322deg,#ffffff 0%, #b22222 50%);
+    background: -moz-linear-gradient(322deg,#ffffff 0%, #b22222 50%);   
+    text-align: center;
+    color: black;
+}
+header{
+    background: transparent;
+    font-family: 'Quicksand', sans-serif;
+}
+.Cursiva{
+    font-style: oblique;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Negrita{
+    font-weight:bold;
+}
+#image {
+    max-width: 431px;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    background: transparent;
+}
+
+#img-div {
+    margin: 1rem;
+    background-color: transparent;
+}
+
+ul {
+    list-style-type: none;
+    list-style-image: url('libertadores.png');
+    
+    list-style-position: inside;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+    display:inline-block;
+  }
+li {
+    margin: auto;
+  }
+
+  /* @media (max-width:862px) {
+      
+  } */
+  #ListadoTrofeos{
+      columns: 1;
+      column-gap: 20px;
+  }
